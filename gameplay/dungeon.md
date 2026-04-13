@@ -46,4 +46,4 @@ Với dungeon có 2 rarity (ví dụ T8 Epic/Ancient):
 
 ## Loại Đồ Drop
 
-Dungeon drop ngẫu nhiên: **Vũ Khí**, **Giáp**, hoặc **Mũ** — không drop Trang Sức (craft-only).
+Dungeon drop ngẫu nhiên: **Vũ Khí** ⚔️, **Giáp** 🛡️, hoặc **Mũ** 🪖 — Trang Sức 💍 không drop (craft-only).
