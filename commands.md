@@ -4,7 +4,7 @@
 
 | Lệnh | Mô tả |
 |---|---|
-| `/start <class> [tên]` | Tạo nhân vật (warrior / rogue / mage) |
+| `/start <class> [tên]` | Tạo nhân vật (warrior / rogue / mage) — tối đa 3 slot |
 | `/status` | Xem chỉ số, trang bị, EXP, vàng |
 | `/stats @user` | Xem chỉ số nhân vật của người khác |
 | `/alloc auto` | Tự động phân bổ điểm vào main stat |
@@ -12,6 +12,14 @@
 | `/alloc stat <stat> [n]` | Bỏ n điểm vào STR/DEX/VIT/MAG |
 | `/respec` | Hoàn trả toàn bộ điểm (Lv × 200g) |
 | `/ranking` | Bảng xếp hạng top 10 |
+
+## Character Slots
+
+| Lệnh | Mô tả |
+|---|---|
+| `/slot list` | Xem 3 slot nhân vật (tên, class, lv, slot đang dùng) |
+| `/slot switch <1–3>` | Chuyển sang nhân vật ở slot chỉ định (miễn phí) |
+| `/slot delete <1–3>` | Xóa nhân vật ở slot không active (đồ trong rương giữ lại) |
 
 ## Chiến Đấu
 

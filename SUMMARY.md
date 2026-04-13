@@ -25,6 +25,7 @@
 ## Hệ Thống
 
 * [Chỉ Số & Power Rating](systems/stats.md)
+* [Character Slots](systems/slots.md)
 * [Chợ Người Chơi](systems/market.md)
 * [Rương & Tặng Đồ](systems/chest.md)
 
