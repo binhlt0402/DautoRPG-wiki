@@ -59,4 +59,4 @@ Muốn reset lại dùng `/respec` (tốn vàng = cấp × 200g).
 
 ## Skills
 
-Mỗi class có 1 **Active skill** (dùng MP) và 1 **Passive skill**. Xem chi tiết trong `/status`.
+Mỗi class có skill Active, AOE (Lv10), và Passive. Pháp Sư còn có Extra skill ở Lv10. Xem đầy đủ trong [trang Skills](../systems/skills.md).
