@@ -2,6 +2,19 @@
 
 ---
 
+## v0.9.1 — 2026-04-14 · Lệnh /dummy
+
+- Thêm `/dummy [target] [turns]` — tấn công nộm tập để đo DPS thực tế
+- 5 loại nộm mục tiêu:
+  - 🎯 **Thường** — DEF 0, Resist 0%
+  - 🛡️ **Giáp Dày** — DEF 500, Resist 0%
+  - 🔮 **Kháng Phép** — DEF 0, Resist 75% (cap)
+  - 💠 **Boss T7** — DEF 215, Resist 15%
+  - 🌤️ **Boss T8** — DEF 270, Resist 20%
+- Ephemeral — chỉ người dùng thấy, không ảnh hưởng nhân vật (HP/MP khôi phục sau test)
+
+---
+
 ## v0.9 — 2026-04-14 · Rebalance Tổng Thể + Đồ Lv35
 
 ### Nội Dung Mới
