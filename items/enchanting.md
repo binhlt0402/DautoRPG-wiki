@@ -8,6 +8,8 @@ Tăng chỉ số ngẫu nhiên cho trang bị, tối đa **+5 lần**.
 /enchant <id>    ← ID từ /inventory list hoặc /chest list
 ```
 
+Cũng có thể phong ấn trực tiếp trên **Dashboard web** (mục Phong Ấn).
+
 ## Tỷ Lệ Thành Công
 
 | Lần phong ấn | Tỷ lệ |
@@ -26,10 +28,12 @@ Mỗi lần phong ấn tăng ngẫu nhiên **1 stat** đang có trên đồ (ưu
 
 | Loại đồ | Stat có thể tăng |
 |---|---|
-| ⚔️ Vũ Khí | STR, DEX, MAG, ATK, ACC |
-| 🛡️ Giáp | DEF, HP, VIT, EVA |
-| 🪖 Mũ | DEF, HP, VIT, EVA |
+| ⚔️ Vũ Khí | STR, DEX, MAG, ATK, **Crit**, **CritDMG** |
+| 🛡️ Giáp | DEF, HP, VIT, EVA, **Resist** |
+| 🪖 Mũ | DEF, HP, VIT, EVA, **Resist** |
 | 💍 Trang Sức | STR, DEX, VIT, MAG |
+
+> **Lưu ý:** `ACC` đã được loại bỏ khỏi pool phong ấn vũ khí. Thay vào đó vũ khí có thể nhận **Crit Rate** và **Crit DMG**.
 
 ## Lượng Tăng Mỗi Lần
 

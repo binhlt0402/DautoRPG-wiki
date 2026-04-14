@@ -29,6 +29,7 @@
 * [Character Slots](systems/slots.md)
 * [Chợ Người Chơi](systems/market.md)
 * [Rương & Tặng Đồ](systems/chest.md)
+* [Web Dashboard](systems/dashboard.md)
 
 ## Tham Khảo
 
