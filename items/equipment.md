@@ -33,6 +33,7 @@ Giáp và Mũ chia 3 loại, ảnh hưởng đến **EVA cap** và **yêu cầu 
 | Lv20 | ≥ 18 |
 | Lv25 | ≥ 25 |
 | Lv30 | ≥ 32 |
+| Lv35 | ≥ 38 |
 | Lv40 | ≥ 45 |
 
 Loại giáp được xác định lúc drop (ngẫu nhiên) hoặc lúc craft (chọn theo recipe). Đồ cũ đã có trong túi đồ trước khi hệ thống này ra đời đã được tự động gán loại ngẫu nhiên.

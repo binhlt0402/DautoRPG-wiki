@@ -23,8 +23,9 @@ Cũng có thể craft trực tiếp trên **Dashboard web** (mục Chế Tạo).
 | `epic_w15` | 🟠 Vũ Khí Epic Lv15 | ⛏️×10 💠×8 ❤️×5 ⚡×2 |
 | `epic_w20` | 🟠 Vũ Khí Epic Lv20 | ⛏️×15 ❤️×10 ⚡×5 👑×3 |
 | `epic_w25` | 🟠 Vũ Khí Epic Lv25 | ⚡×10 👑×6 |
-| `epic_w30` | 🟠 Vũ Khí Epic Lv30 | ⚡×15 👑×10 |
-| `epic_w40` | 🟠 Vũ Khí Epic Lv40 | 👑×20 ⚡×10 |
+| `epic_w30` | 🟠 Vũ Khí Epic Lv30 | 🌑×8 👑×5 |
+| `epic_w35` | 🟠 Vũ Khí Epic Lv35 | 🌀×3 🐉×5 👑×8 |
+| `epic_w40` | 🟠 Vũ Khí Epic Lv40 | 🌀×5 👑×10 |
 | `ancient_w40` | 🔴 Vũ Khí Ancient Lv40 | 💎×5 🌀×8 |
 
 ---
@@ -45,6 +46,7 @@ Mỗi tier có 3 recipe tương ứng 3 loại giáp. Chọn đúng loại phù 
 | `epic_heavy_a20` | 🟠 Giáp Nặng Epic Lv20 | 🪨×15 ❤️×10 ⚡×5 👑×3 |
 | `epic_heavy_a25` | 🟠 Giáp Nặng Epic Lv25 | ⚡×10 👑×6 |
 | `epic_heavy_a30` | 🟠 Giáp Nặng Epic Lv30 | 🌑×8 👑×5 |
+| `epic_heavy_a35` | 🟠 Giáp Nặng Epic Lv35 | 🌀×3 🐉×5 👑×8 |
 | `epic_heavy_a40` | 🟠 Giáp Nặng Epic Lv40 | 🌀×5 👑×10 |
 | `ancient_heavy_a40` | 🔴 Giáp Nặng Ancient Lv40 | 💎×5 🌀×8 |
 
@@ -60,6 +62,7 @@ Mỗi tier có 3 recipe tương ứng 3 loại giáp. Chọn đúng loại phù 
 | `epic_light_a20` | 🟠 Giáp Nhẹ Epic Lv20 | 🦴×15 ❤️×10 ⚡×5 👑×3 |
 | `epic_light_a25` | 🟠 Giáp Nhẹ Epic Lv25 | ⚡×10 👑×6 |
 | `epic_light_a30` | 🟠 Giáp Nhẹ Epic Lv30 | 🌑×8 👑×5 |
+| `epic_light_a35` | 🟠 Giáp Nhẹ Epic Lv35 | 🌀×3 🐉×5 👑×8 |
 | `epic_light_a40` | 🟠 Giáp Nhẹ Epic Lv40 | 🌀×5 👑×10 |
 | `ancient_light_a40` | 🔴 Giáp Nhẹ Ancient Lv40 | 💎×5 🌀×8 |
 
@@ -75,6 +78,7 @@ Mỗi tier có 3 recipe tương ứng 3 loại giáp. Chọn đúng loại phù 
 | `epic_robe_a20` | 🟠 Áo Phép Epic Lv20 | 🌿×15 ❤️×10 ⚡×5 👑×3 |
 | `epic_robe_a25` | 🟠 Áo Phép Epic Lv25 | ⚡×10 👑×6 |
 | `epic_robe_a30` | 🟠 Áo Phép Epic Lv30 | 🌑×8 👑×5 |
+| `epic_robe_a35` | 🟠 Áo Phép Epic Lv35 | 🌀×3 🐉×5 👑×8 |
 | `epic_robe_a40` | 🟠 Áo Phép Epic Lv40 | 🌀×5 👑×10 |
 | `ancient_robe_a40` | 🔴 Áo Phép Ancient Lv40 | 💎×5 🌀×8 |
 
@@ -96,6 +100,7 @@ Tương tự giáp, mũ cũng có 3 loại với yêu cầu và stat pool tươn
 | `epic_heavy_h20` | 🟠 Mũ Nặng Epic Lv20 | 🪨×12 ❤️×8 ⚡×4 👑×3 |
 | `epic_heavy_h25` | 🟠 Mũ Nặng Epic Lv25 | ⚡×10 👑×6 |
 | `epic_heavy_h30` | 🟠 Mũ Nặng Epic Lv30 | 🌑×8 👑×5 |
+| `epic_heavy_h35` | 🟠 Mũ Nặng Epic Lv35 | 🌀×3 🐉×5 👑×8 |
 | `epic_heavy_h40` | 🟠 Mũ Nặng Epic Lv40 | 🌀×5 👑×10 |
 | `ancient_heavy_h40` | 🔴 Mũ Nặng Ancient Lv40 | 💎×3 🌀×5 |
 
@@ -111,6 +116,7 @@ Tương tự giáp, mũ cũng có 3 loại với yêu cầu và stat pool tươn
 | `epic_light_h20` | 🟠 Mũ Nhẹ Epic Lv20 | 🦴×12 ❤️×8 ⚡×4 👑×3 |
 | `epic_light_h25` | 🟠 Mũ Nhẹ Epic Lv25 | ⚡×10 👑×6 |
 | `epic_light_h30` | 🟠 Mũ Nhẹ Epic Lv30 | 🌑×8 👑×5 |
+| `epic_light_h35` | 🟠 Mũ Nhẹ Epic Lv35 | 🌀×3 🐉×5 👑×8 |
 | `epic_light_h40` | 🟠 Mũ Nhẹ Epic Lv40 | 🌀×5 👑×10 |
 | `ancient_light_h40` | 🔴 Mũ Nhẹ Ancient Lv40 | 💎×3 🌀×5 |
 
@@ -126,6 +132,7 @@ Tương tự giáp, mũ cũng có 3 loại với yêu cầu và stat pool tươn
 | `epic_robe_h20` | 🟠 Mũ Phép Epic Lv20 | 🌿×14 ❤️×8 ⚡×4 👑×3 |
 | `epic_robe_h25` | 🟠 Mũ Phép Epic Lv25 | ⚡×10 👑×6 |
 | `epic_robe_h30` | 🟠 Mũ Phép Epic Lv30 | 🌑×8 👑×5 |
+| `epic_robe_h35` | 🟠 Mũ Phép Epic Lv35 | 🌀×3 🐉×5 👑×8 |
 | `epic_robe_h40` | 🟠 Mũ Phép Epic Lv40 | 🌀×5 👑×10 |
 | `ancient_robe_h40` | 🔴 Mũ Phép Ancient Lv40 | 💎×3 🌀×5 |
 
@@ -142,11 +149,12 @@ Tương tự giáp, mũ cũng có 3 loại với yêu cầu và stat pool tươn
 | `epic_c15` | 🟠 Trang Sức Epic Lv15 | 🦴×8 ❤️×8 ⚡×3 |
 | `epic_c20` | 🟠 Trang Sức Epic Lv20 | 🦴×12 ⚡×8 👑×4 |
 | `epic_c25` | 🟠 Trang Sức Epic Lv25 | ⚡×12 👑×5 |
-| `epic_c30` | 🟠 Trang Sức Epic Lv30 | ⚡×15 👑×12 |
-| `epic_c40` | 🟠 Trang Sức Epic Lv40 | 👑×22 ⚡×8 |
+| `epic_c30` | 🟠 Trang Sức Epic Lv30 | 🌑×6 👑×5 |
+| `epic_c35` | 🟠 Trang Sức Epic Lv35 | 🌀×2 🐉×4 👑×6 |
+| `epic_c40` | 🟠 Trang Sức Epic Lv40 | 🌀×4 👑×8 |
 | `ancient_c40` | 🔴 Trang Sức Ancient Lv40 | 💎×3 🌀×5 |
 
 ---
 
 **Ký hiệu nguyên liệu:**
-🌿 Dược Thảo · 🦴 Xương Quái · 🪨 Đá Thô · ⛏️ Quặng Sắt · 💠 Tinh Thể Ma · ❤️ Tinh Huyết · ⚡ Sấm Thạch · 👑 Tinh Linh Cổ · 🌑 Pha Lê Bóng Tối · 🌀 Tinh Chất Hư Vô · 💎 Ngọc Cổ Đại
+🌿 Dược Thảo · 🦴 Xương Quái · 🪨 Đá Thô · ⛏️ Quặng Sắt · 💠 Tinh Thể Ma · ❤️ Tinh Huyết · ⚡ Sấm Thạch · 👑 Tinh Linh Cổ · 🌑 Pha Lê Bóng Tối · 🐉 Xương Rồng · 🌀 Tinh Chất Hư Vô · 💎 Ngọc Cổ Đại
