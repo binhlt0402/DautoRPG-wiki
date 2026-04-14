@@ -6,12 +6,12 @@
 |---|---|---|
 | `herb` | 🌿 Dược Thảo | Explore Rừng Xanh (30%) |
 | `bone` | 🦴 Xương Quái | Explore Đồng Bằng (30%) |
-| `stone` | 🪨 Đá Thô | Explore Hang Động (30%) |
-| `ore` | ⛏️ Quặng Sắt | Explore Núi Tuyết (30%) |
+| `stone` | 🪨 Đá Thô | Explore Hang Động / Núi Tuyết (30%) |
+| `ore` | ⛏️ Quặng Sắt | Explore Núi Tuyết / Sa Mạc / Núi Lửa (30%) |
 | `crystal_magic` | 💠 Tinh Thể Ma | Dungeon T1 |
 | `blood_essence` | ❤️ Tinh Huyết | Dungeon T2 |
-| `thunder_gem` | ⚡ Sấm Thạch | Dungeon T3 |
-| `ancient_spirit` | 👑 Tinh Linh Cổ | Dungeon T4 |
+| `thunder_gem` | ⚡ Sấm Thạch | Explore Núi Lửa / Vực Tối (30%) + Dungeon T3 |
+| `ancient_spirit` | 👑 Tinh Linh Cổ | Explore Vực Tối / Thánh Địa / Hư Không / Cõi Hỗn Nguồn / Thiên Đường (30%) + Dungeon T4 |
 | `shadow_crystal` | 🌑 Pha Lê Bóng Tối | Dungeon T5 |
 | `dragon_bone` | 🐉 Xương Rồng | Dungeon T6 |
 | `void_essence` | 🌀 Tinh Chất Hư Vô | Dungeon T7 |
