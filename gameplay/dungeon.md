@@ -32,8 +32,8 @@
 | T3 🐉 | Hang Rồng | Lv 14+, PR 800 | 🟡🟠 Rare/Epic | Lv 15 | ⚡ Sấm Thạch |
 | T4 🌋 | Vực Địa Ngục | Lv 18+, PR 1600 | 🟠 Epic | Lv 20 | 👑 Tinh Linh Cổ |
 | T5 🏛️ | Thánh Địa | Lv 22+, PR 2500 | 🟠 Epic | Lv 25 | 🌑 Pha Lê Bóng Tối |
-| T6 🌀 | Hư Không | Lv 30+, PR 4000 | 🟠 Epic | Lv 25 | 🐉 Xương Rồng |
-| T7 💠 | Cõi Bóng Tối | Lv 40+, PR 6000 | 🟠 Epic | Lv 30 | 🌀 Tinh Chất Hư Vô |
+| T6 🌀 | Hư Không | Lv 30+, PR 4000 | 🟠 Epic | Lv 30 | 🐉 Xương Rồng |
+| T7 💠 | Cõi Bóng Tối | Lv 40+, PR 6000 | 🟠 Epic | Lv 35 | 🌀 Tinh Chất Hư Vô |
 | T8 🌤️ | Thiên Đường Cấm | Lv 55+, PR 10000 | 🟠🔴 Epic/Ancient | Lv 40 | 💎 Ngọc Cổ Đại |
 
 > **Lưu ý:** Yêu cầu Lv và PR là **đề xuất**, không phải bắt buộc — bạn vẫn vào được nhưng sẽ nhận cảnh báo nếu chưa đủ.

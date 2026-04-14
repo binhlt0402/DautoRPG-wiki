@@ -34,3 +34,4 @@
 ## Tham Khảo
 
 * [Danh Sách Lệnh](commands.md)
+* [Lịch Sử Cập Nhật](changelog.md)
