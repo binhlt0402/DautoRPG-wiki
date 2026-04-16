@@ -2,6 +2,54 @@
 
 ---
 
+## v0.9.9 — 2026-04-16 · Targeted Accessory Craft Recipes
+
+- **88 công thức trang sức mới** — chọn main stat cụ thể khi craft thay vì random
+- 8 main stat có thể chọn: `ATK, CRIT%, CDMG%, EVA%, PEN%, RES%, HP, MP/TRN`
+- ID pattern: `{rarity}_c{level}_{stat}` — ví dụ: `epic_c20_crit`, `ancient_c40_pen`
+- Chi phí bằng với công thức generic cùng tier/rarity; công thức generic vẫn giữ nguyên
+
+---
+
+## v0.9.8 — 2026-04-16 · Gear Stat Rework + Reroll System
+
+### Hệ Thống Stat Mới
+- Mỗi trang bị có **1 main stat cố định** (★) + **sub stats ngẫu nhiên** (·)
+- Main stat theo slot: Vũ Khí → **ATK** | Giáp/Mũ → **DEF** | Trang Sức → **random**
+- **10 stats** có thể xuất hiện: `HP, DEF, ATK, CRIT%, CDMG%, EVA%, PEN%, RES%, CRIT-RES%, MP/TRN`
+- Số sub stats theo rarity: Common 0 | Magic 1 | Rare 2 | Epic 3 | Ancient 3
+
+### Lệnh Mới
+- `/reroll <id>` — Reroll từng dòng sub stat bằng nút bấm (main stat cố định, tốn vàng + nguyên liệu)
+
+### Cơ Chế
+- Stat `MP/TRN` từ trang bị cộng vào MP regen cuối mỗi lượt chiến đấu
+- Chi phí reroll tăng theo levelReq của đồ
+
+---
+
+## v0.9.7 — 2026-04-16 · Class Rework
+
+- 🗡️ **Thích Khách**: Crit Rate DEX×0.25% hard cap 60% | CDMG hard cap 300% | EVA DEX×0.3% cap 65%
+- 🔮 **Pháp Sư**: Crit hard cap 40% | MAG Penetration giảm Resist kẻ địch (`min(50%, MAG×0.5%)`) | Mana Shield 40% absorb
+- ⚔️ **Chiến Binh**: Passive "Trụ Cột" — ATK +0.5% maxHP | DEF stack khi bị đánh (+5% giảm ST × tối đa 3 stack) | Giáp Nặng +10% Resist
+
+---
+
+## v0.9.6 — 2026-04-16 · Core Stats Rework
+
+- DEF Thích Khách / Pháp Sư bỏ STR×0.25 scaling (Chiến Binh vẫn giữ STR×0.40)
+- Crit Rate công thức mới: `baseDEX×0.18% + equipDEX×0.08% + gear CRIT%`
+
+---
+
+## v0.9.5 — 2026-04-16 · Explore Heal + Thích Khách Passive
+
+- Explore hồi đầy HP/MP ngay khi bắt đầu session
+- Thích Khách passive: **Phản Công** → **Sát Thương Chí Mạng** (+50% Crit DMG flat, không tính DR)
+
+---
+
 ## v0.9.1 — 2026-04-14 · Lệnh /dummy
 
 - Thêm `/dummy [target] [turns]` — tấn công nộm tập để đo DPS thực tế

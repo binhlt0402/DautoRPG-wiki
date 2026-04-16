@@ -42,7 +42,8 @@
 | `/equip <id>` | Mặc đồ (hiển thị thay đổi chỉ số) |
 | `/unequip <slot>` | Tháo đồ |
 | `/autoequip` | Tự động mặc đồ có PR cao nhất |
-| `/enchant <id>` | Phong ấn trang bị |
+| `/enchant <id>` | Phong ấn trang bị (+stat ngẫu nhiên) |
+| `/reroll <id>` | Reroll sub stat (main stat cố định, tốn vàng + nguyên liệu) |
 
 ## Shop & Craft
 
@@ -74,4 +75,6 @@
 
 | Lệnh | Mô tả |
 |---|---|
+| `/revive` | Tỉnh dậy ngay lập tức bằng vàng (bỏ qua thời gian bất tỉnh) |
+| `/dummy [target] [turns]` | Tấn công nộm tập để đo DPS thực tế (không ảnh hưởng nhân vật) |
 | `/help` | Xem tóm tắt lệnh trong Discord |

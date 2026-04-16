@@ -4,14 +4,51 @@ Có **4 slot** trang bị, mỗi slot ảnh hưởng đến chỉ số theo các
 
 ## Các Slot
 
-| Slot | Emoji | Tác dụng chính | Nguồn |
+| Slot | Main Stat | Sub Stats | Nguồn |
 |---|---|---|---|
-| ⚔️ **Vũ Khí** | Weapon | +ATK, +Crit, +CritDMG | Drop, Shop, Craft |
-| 🛡️ **Giáp** | Armor | +DEF, +HP, +EVA, +Resist (tùy loại) | Drop, Shop, Craft |
-| 🪖 **Mũ** | Helmet | +DEF, +HP, +EVA, +Resist (tùy loại) | Drop, Shop, Craft |
-| 💍 **Trang Sức** | Accessory | +STR/DEX/VIT/MAG | **Craft only** (không drop) |
+| ⚔️ **Vũ Khí** | ★ **ATK** (cố định) | Random từ 10 stats | Drop, Shop, Craft |
+| 🛡️ **Giáp** | ★ **DEF** (cố định) | Random từ 10 stats | Drop, Shop, Craft |
+| 🪖 **Mũ** | ★ **DEF** (cố định) | Random từ 10 stats | Drop, Shop, Craft |
+| 💍 **Trang Sức** | ★ **Random** (hoặc chọn khi craft) | Random từ 10 stats | **Craft only** (không drop) |
 
 > **Lưu ý:** Trang Sức **không drop** từ quái hay dungeon — chỉ có thể craft hoặc mua từ chợ người chơi.
+
+## Hệ Thống Stats
+
+Mỗi trang bị có **1 main stat (★)** và **0–3 sub stats (·)** tùy theo rarity:
+
+| Rarity | Sub Stats |
+|---|---|
+| ⚪ Common | 0 |
+| 🔵 Magic | 1 |
+| 🟡 Rare | 2 |
+| 🟠 Epic | 3 |
+| 🔴 Ancient | 3 |
+
+**10 stats có thể xuất hiện trên trang bị:**
+
+| Stat | Ký hiệu | Tác dụng |
+|---|---|---|
+| HP | HP | Tăng máu tối đa |
+| DEF | DEF | Tăng phòng thủ vật lý |
+| ATK | ATK | Tăng tấn công trực tiếp |
+| CRIT% | CRIT% | Tăng tỷ lệ chí mạng |
+| CDMG% | CDMG% | Tăng sát thương chí mạng |
+| EVA% | EVA% | Tăng né tránh |
+| PEN% | PEN% | Xuyên kháng phép (Pháp Sư) |
+| RES% | RES% | Tăng kháng phép |
+| CRIT-RES% | CRIT-RES% | Giảm xác suất bị chí mạng |
+| MP/TRN | MP/TRN | Hồi MP mỗi lượt chiến đấu |
+
+## Reroll Sub Stat
+
+```
+/reroll <id>    ← Hiển thị nút reroll từng dòng sub stat
+```
+
+- **Main stat không thể reroll** — cố định khi tạo đồ
+- Mỗi lần reroll tốn **vàng + nguyên liệu** theo levelReq
+- Sub stat mới được roll hoàn toàn ngẫu nhiên (cả loại lẫn giá trị)
 
 ## Loại Giáp (Armor Type)
 
@@ -59,7 +96,10 @@ Khi `/equip` hoặc `/unequip`, bot sẽ hiển thị chênh lệch chỉ số, 
 Mỗi item có **PR riêng** tính từ tổng chỉ số:
 
 ```
-PR = STR×3 + DEX×3 + MAG×3 + VIT×2 + ATK×2 + DEF×1.5 + HP×0.2 + EVA×2 + Crit×2 + CritDMG×1 + Resist×2
+PR = STR×3 + DEX×3 + MAG×3 + VIT×2
+   + ATK×2 + DEF×1.5 + HP×0.2
+   + EVA×2 + RES×2 + CRIT×2 + CDMG×1.5
+   + PEN×2 + CRIT-RES×1.5 + MP/TRN×3
 ```
 
 `/autoequip` dùng PR này để chọn đồ tốt nhất cho từng slot.

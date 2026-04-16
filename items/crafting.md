@@ -140,6 +140,8 @@ Tương tự giáp, mũ cũng có 3 loại với yêu cầu và stat pool tươn
 
 ## 💍 Trang Sức
 
+### Generic (main stat ngẫu nhiên)
+
 | ID | Item | Nguyên liệu |
 |---|---|---|
 | `magic_c5` | 🔵 Trang Sức Magic Lv5 | 🦴×4 ⛏️×2 |
@@ -153,6 +155,33 @@ Tương tự giáp, mũ cũng có 3 loại với yêu cầu và stat pool tươn
 | `epic_c35` | 🟠 Trang Sức Epic Lv35 | 🌀×2 🐉×4 👑×6 |
 | `epic_c40` | 🟠 Trang Sức Epic Lv40 | 🌀×4 👑×8 |
 | `ancient_c40` | 🔴 Trang Sức Ancient Lv40 | 💎×3 🌀×5 |
+
+### Targeted (chọn main stat cụ thể)
+
+Thêm `_<stat>` vào cuối ID generic để craft với main stat cố định. Chi phí giống hệt generic cùng tier.
+
+**8 stat có thể chọn:**
+
+| Suffix | Main Stat |
+|---|---|
+| `_atk` | ★ ATK |
+| `_crit` | ★ CRIT% |
+| `_critDmg` | ★ CDMG% |
+| `_eva` | ★ EVA% |
+| `_pen` | ★ PEN% |
+| `_resist` | ★ RES% |
+| `_hp` | ★ HP |
+| `_mpRegen` | ★ MP/TRN |
+
+**Ví dụ:**
+
+| ID | Item |
+|---|---|
+| `magic_c5_crit` | 🔵 Trang Sức [CRIT%] Magic Lv5 |
+| `epic_c20_atk` | 🟠 Trang Sức [ATK] Epic Lv20 |
+| `ancient_c40_pen` | 🔴 Trang Sức [PEN%] Ancient Lv40 |
+
+> Sub stats vẫn random như bình thường — chỉ main stat được cố định.
 
 ---
 
