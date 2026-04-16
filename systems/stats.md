@@ -4,7 +4,7 @@
 
 | Stat | Ảnh hưởng |
 |---|---|
-| **STR** — Sức Mạnh | ATK (Chiến Binh), maxHP, DEF; yêu cầu Giáp Nặng |
+| **STR** — Sức Mạnh | ATK (Chiến Binh), maxHP, DEF (chỉ Chiến Binh); yêu cầu Giáp Nặng |
 | **DEX** — Nhanh Nhẹn | ATK (Thích Khách), EVA, Crit Rate; yêu cầu Giáp Nhẹ |
 | **VIT** — Sinh Lực | maxHP (+10 HP/điểm) |
 | **MAG** — Phép Thuật | ATK (Pháp Sư), maxMP (+5 MP/điểm); yêu cầu Áo Phép |
@@ -37,9 +37,13 @@ EVA = min(EVA_cap, BaseEVA_class + max(0, Lv_nhân_vật - Lv_quái)×2% + DEX×
 ## Crit Rate & Crit DMG
 
 ```
-Crit Rate = min(50%, DEX×0.3% + bonus_equip.crit%)
+Crit Rate = baseDEX×0.18% + equipDEX×0.08% + bonus_equip.crit%
 Crit DMG  = 150% + bonus_equip.critDmg%
 ```
+
+- **baseDEX** = DEX nội tại của nhân vật (stat points, không tính trang bị)
+- **equipDEX** = DEX cộng thêm từ trang bị (hiệu quả thấp hơn ~44% so với baseDEX)
+- Soft cap 40%: DEX trên ngưỡng này chỉ còn 30% hiệu quả
 
 Crit chỉ áp dụng cho đòn thường và skill vật lý. Khi crit, sát thương nhân với hệ số Crit DMG.
 
