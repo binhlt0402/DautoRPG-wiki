@@ -89,15 +89,14 @@ rawDmg = ATK ± 20% (ngẫu nhiên) × dmgMult
 
 ---
 
-### Passive — Phản Công
-> 25% cơ hội phản đòn khi bị tấn công
+### Passive — Sát Thương Chí Mạng
+> Tăng sát thương chí mạng cố định, không bị ảnh hưởng bởi diminishing return
 
 | | |
 |---|---|
-| **Xác suất** | 25% mỗi đòn nhận |
-| **Sát thương phản** | 50% ATK − DEF_địch |
+| **Bonus Crit DMG** | +50% flat |
 
-**Công thức:** `counterDmg = max(1, floor(ATK × 0.5) − DEF_địch)` — xảy ra ngay sau mỗi đòn của kẻ địch.
+**Công thức:** `critMult = critDmgMult() + 0.5` — cộng thẳng sau khi đã tính soft cap của trang bị, không qua DR. Ví dụ: base 150% + equip DR 80% = 230% → passive +50% → tổng **280%**.
 
 ---
 
@@ -169,7 +168,7 @@ Giúp Pháp Sư duy trì spam skill liên tục mà không cần lo cạn MP.
 | Class | Active | AOE (Lv10) | Extra (Lv10) | Passive |
 |---|---|---|---|---|
 | ⚔️ Chiến Binh | Chém Mạnh 150% | Chém Vòng 100% | — | Giảm 15% ST nhận |
-| 🗡️ Thích Khách | Đâm Hiểm 200% | Vũ Bão Dao 80% | — | 25% phản 50% ATK |
+| 🗡️ Thích Khách | Đâm Hiểm 200% | Vũ Bão Dao 80% | — | +50% Crit DMG flat |
 | 🔮 Pháp Sư | Cầu Lửa 175% ⚡ | Bão Lửa 120% ⚡ | Chuỗi Lửa 160%+60% ⚡ | +8 MP/lượt |
 
 *⚡ = xuyên giáp*

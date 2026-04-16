@@ -15,7 +15,7 @@
 * Mỗi lượt tự động chiến đấu với 1–3 quái (tùy cấp độ)
 * Thắng: nhận EXP + vàng + 30% chance drop nguyên liệu
 * Thua hoặc kiệt sức (fatigue): **bất tỉnh 10 phút**
-* HP tự hồi đầy sau khi explore kết thúc
+* HP/MP hồi đầy **khi bắt đầu** và khi kết thúc mỗi session explore
 
 ## Vùng Explore
 
