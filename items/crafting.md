@@ -185,5 +185,33 @@ Thêm `_<stat>` vào cuối ID generic để craft với main stat cố định.
 
 ---
 
+## 🗡️ Tay Phụ (Offhand) — 3 loại: Khiên / Dao Phụ / Cầu Phép
+
+Offhand có **3 loại** với main stat và sub stat pool khác nhau. Mỗi tier sinh ra 3 recipe tương ứng.
+
+- 🛡️ **Khiên** (shield) — main stat DEF, yêu cầu STR
+- 🗡️ **Dao Phụ** (dagger) — main stat DEX, yêu cầu DEX
+- 🔮 **Cầu Phép** (orb) — main stat MAG, yêu cầu MAG
+
+> Offhand **không drop** — chỉ craft hoặc mua từ chợ người chơi.
+
+Format ID: `<loại>_<rarity>_oh<lv>` · Ví dụ: `shield_magic_oh5`, `dagger_rare_oh15`, `orb_epic_oh20`
+
+| ID (×3 loại) | Rarity / Lv | Nguyên liệu |
+|---|---|---|
+| `shield/dagger/orb_magic_oh5` | 🔵 Magic Lv5 | 🪨×4 ⛏️×2 |
+| `shield/dagger/orb_magic_oh10` | 🔵 Magic Lv10 | 🪨×6 ⛏️×3 💠×2 |
+| `shield/dagger/orb_rare_oh10` | 🟡 Rare Lv10 | 🪨×6 ⛏️×4 💠×3 |
+| `shield/dagger/orb_rare_oh15` | 🟡 Rare Lv15 | 🪨×8 💠×5 ❤️×3 |
+| `shield/dagger/orb_epic_oh15` | 🟠 Epic Lv15 | 🪨×8 💠×7 ❤️×4 ⚡×2 |
+| `shield/dagger/orb_epic_oh20` | 🟠 Epic Lv20 | 🪨×12 ❤️×8 ⚡×4 👑×3 |
+| `shield/dagger/orb_epic_oh25` | 🟠 Epic Lv25 | ⚡×10 👑×6 |
+| `shield/dagger/orb_epic_oh30` | 🟠 Epic Lv30 | 🌑×8 👑×5 |
+| `shield/dagger/orb_epic_oh35` | 🟠 Epic Lv35 | 🌀×3 🐉×5 👑×8 |
+| `shield/dagger/orb_epic_oh40` | 🟠 Epic Lv40 | 🌀×5 👑×10 |
+| `shield/dagger/orb_ancient_oh40` | 🔴 Ancient Lv40 | 💎×3 🌀×5 |
+
+---
+
 **Ký hiệu nguyên liệu:**
 🌿 Dược Thảo · 🦴 Xương Quái · 🪨 Đá Thô · ⛏️ Quặng Sắt · 💠 Tinh Thể Ma · ❤️ Tinh Huyết · ⚡ Sấm Thạch · 👑 Tinh Linh Cổ · 🌑 Pha Lê Bóng Tối · 🐉 Xương Rồng · 🌀 Tinh Chất Hư Vô · 💎 Ngọc Cổ Đại

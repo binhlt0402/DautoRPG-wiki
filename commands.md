@@ -40,7 +40,7 @@
 | `/inventory list [page]` | Xem túi đồ |
 | `/inventory sell <id\|all>` | Bán vật phẩm |
 | `/equip <id>` | Mặc đồ (hiển thị thay đổi chỉ số) |
-| `/unequip <slot>` | Tháo đồ |
+| `/unequip <slot>` | Tháo đồ — slot: weapon, offhand, armor, helmet, accessory |
 | `/autoequip` | Tự động mặc đồ có PR cao nhất |
 | `/enchant <id>` | Phong ấn trang bị (+stat ngẫu nhiên) |
 | `/reroll <id>` | Reroll sub stat (main stat cố định, tốn vàng + nguyên liệu) |

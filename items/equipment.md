@@ -1,15 +1,16 @@
 # Loại Trang Bị
 
-Có **4 slot** trang bị, mỗi slot ảnh hưởng đến chỉ số theo cách khác nhau.
+Có **5 slot** trang bị, mỗi slot ảnh hưởng đến chỉ số theo cách khác nhau.
 
 ## Các Slot
 
 | Slot | Main Stat | Sub Stats | Nguồn |
 |---|---|---|---|
-| ⚔️ **Vũ Khí** | ★ **ATK** (cố định) | Random từ 10 stats | Drop, Shop, Craft |
-| 🛡️ **Giáp** | ★ **DEF** (cố định) | Random từ 10 stats | Drop, Shop, Craft |
-| 🪖 **Mũ** | ★ **DEF** (cố định) | Random từ 10 stats | Drop, Shop, Craft |
-| 💍 **Trang Sức** | ★ **Random** (hoặc chọn khi craft) | Random từ 10 stats | **Craft only** (không drop) |
+| ⚔️ **Vũ Khí** | ★ **ATK** (cố định) | Random từ 7 stats | Drop, Shop, Craft |
+| 🗡️ **Tay Phụ** | ★ Theo loại phụ (xem bên dưới) | Random theo loại | Drop, Craft |
+| 🛡️ **Giáp** | ★ **DEF** (cố định) | Random từ 7 stats | Drop, Shop, Craft |
+| 🪖 **Mũ** | ★ **DEF** (cố định) | Random từ 6 stats | Drop, Shop, Craft |
+| 💍 **Trang Sức** | ★ **Random** (hoặc chọn khi craft) | Random từ 9 stats | **Craft only** (không drop) |
 
 > **Lưu ý:** Trang Sức **không drop** từ quái hay dungeon — chỉ có thể craft hoặc mua từ chợ người chơi.
 
@@ -50,6 +51,43 @@ Mỗi trang bị có **1 main stat (★)** và **0–3 sub stats (·)** tùy the
 - Mỗi lần reroll tốn **vàng + nguyên liệu** theo levelReq
 - Sub stat mới được roll hoàn toàn ngẫu nhiên (cả loại lẫn giá trị)
 
+## Vũ Khí 2 Tay [2H]
+
+Vũ khí có thể là **1 tay (1H)** hoặc **2 tay (2H)**:
+
+- **40% vũ khí drop** từ explore/dungeon là 2H
+- **2H stat cao hơn 1H ×1.4** (main stat + sub stats đều được nhân)
+- Trang bị 2H → **tự động tháo tay phụ**
+- Đang dùng 2H → **không thể trang bị tay phụ**
+
+> 2H phù hợp khi không có offhand tốt. Ngược lại 1H + offhand cho tổng stat cao hơn nếu offhand rarity cao.
+
+## Slot Tay Phụ (Offhand)
+
+Slot tay phụ có **3 loại**, mỗi loại có main stat và yêu cầu khác nhau:
+
+| Loại | Main Stat | Yêu cầu | Sub Stats |
+|---|---|---|---|
+| 🛡️ **Khiên (Shield)** | ★ DEF | STR ≥ ngưỡng | def, hp, resist, vit, str, critResist |
+| 🗡️ **Dao Phụ (Dagger)** | ★ DEX | DEX ≥ ngưỡng | atk, crit, critDmg, pen, dex |
+| 🔮 **Cầu Phép (Orb)** | ★ MAG | MAG ≥ ngưỡng | mag, resist, mpRegen, pen, critDmg |
+
+**Ngưỡng stat** theo cấp đồ (giống giáp):
+
+| Lv đồ | Stat yêu cầu |
+|---|---|
+| Lv5 | ≥ 5 |
+| Lv10 | ≥ 8 |
+| Lv15 | ≥ 12 |
+| Lv20 | ≥ 18 |
+| Lv25 | ≥ 25 |
+| Lv30 | ≥ 32 |
+| Lv35 | ≥ 38 |
+| Lv40 | ≥ 45 |
+
+**Nguồn:** Drop từ explore/dungeon (random loại) hoặc craft (chọn loại qua recipe).  
+Recipe ID format: `shield_<rarity>_oh<lv>`, `dagger_<rarity>_oh<lv>`, `orb_<rarity>_oh<lv>`.
+
 ## Loại Giáp (Armor Type)
 
 Giáp và Mũ chia 3 loại, ảnh hưởng đến **EVA cap** và **yêu cầu chỉ số** để mặc:
@@ -80,8 +118,8 @@ Loại giáp được xác định lúc drop (ngẫu nhiên) hoặc lúc craft (
 ```
 /inventory list          ← Xem túi đồ (ID từng món)
 /equip <id>              ← Mặc đồ (hiển thị thay đổi ATK/DEF/HP)
-/unequip <slot>          ← Tháo đồ (hiển thị thay đổi)
-/autoequip               ← Tự động mặc đồ có PR cao nhất
+/unequip <slot>          ← Tháo đồ — slot: weapon, offhand, armor, helmet, accessory
+/autoequip               ← Tự động mặc đồ có PR cao nhất (tự xử lý 2H vs 1H+offhand)
 ```
 
 Tất cả thao tác mặc/tháo/bán/cất đồ đều có thể thực hiện trên **Dashboard web**.
