@@ -25,7 +25,8 @@
 
 ## Hệ Thống
 
-* [Skills](systems/skills.md)
+* [Skills & Skill Slots](systems/skills.md)
+* [Advanced Classes](systems/advanced-classes.md)
 * [Chỉ Số & Power Rating](systems/stats.md)
 * [Character Slots](systems/slots.md)
 * [Chợ Người Chơi](systems/market.md)

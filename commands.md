@@ -13,6 +13,15 @@
 | `/respec` | Hoàn trả toàn bộ điểm (Lv × 200g) |
 | `/ranking` | Bảng xếp hạng top 10 |
 
+## Advanced Class & Skill Slots
+
+| Lệnh | Mô tả |
+|---|---|
+| `/advance <class>` | Nâng cấp class (Lv20+, không hoàn tác). Chiến Binh → Berserker / Paladin / Royal Knight |
+| `/skill list` | Xem toàn bộ skill pool + skill đang lắp (✅ = active) |
+| `/skill equip <id>` | Lắp skill vào slot chiến đấu (tối đa 4 cùng lúc) |
+| `/skill unequip <id>` | Tháo skill ra khỏi slot |
+
 ## Character Slots
 
 | Lệnh | Mô tả |

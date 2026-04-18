@@ -1,15 +1,37 @@
 # Skills
 
-Mỗi class có **2–3 skill** chia làm 4 loại:
+## Hệ Thống Skill Slot (từ bản Advanced Class)
 
-| Loại | Mô tả |
+Mỗi nhân vật có **Skill Pool** (tất cả skill đã unlock) và có thể **trang bị tối đa 4 skill** để dùng trong battle.
+
+| Khái niệm | Mô tả |
 |---|---|
-| **Active** | Single-target, dùng được từ Lv1, tốn MP + cooldown |
-| **AOE** | Đánh toàn bộ kẻ địch, mở khóa Lv10 |
-| **Extra** | Pháp Sư độc quyền, mở khóa Lv10 |
-| **Passive** | Luôn hoạt động, không cần kích hoạt |
+| **Skill Pool** | Toàn bộ skill đã unlock của nhân vật |
+| **Equipped Skills** | Tối đa 4 skill chọn từ pool để dùng trong battle |
+| **Swap** | Dùng `/skill equip/unequip <id>` bất cứ lúc nào ngoài battle |
 
-**Ưu tiên dùng skill trong trận:** AOE (khi ≥2 kẻ địch) > Extra > Active > Đánh thường
+### Loại Skill (Role)
+
+| Role | Emoji | Mô tả |
+|---|---|---|
+| **active** | ⚔️ | Single-target attack, dùng trên cooldown |
+| **aoe** | 🌀 | Đánh tất cả kẻ địch |
+| **extra** | 🔥 | Skill đặc biệt (bounce, v.v.) |
+| **passive** | 🌙 | Luôn hoạt động khi được lắp, không chiếm lượt |
+| **buff** | ✨ | Buff bản thân, dùng một lượt |
+| **heal** | 💚 | Hồi HP bản thân |
+
+### Ưu Tiên Skill Trong Battle
+
+```
+Heal (HP < 40%) → AoE (≥2 địch) → Buff (chưa active) → Single target → Đánh thường
+```
+
+---
+
+## Base Classes
+
+Mỗi base class có **pool cố định 3–4 skill** từ Lv1/Lv10. Xem chi tiết bên dưới.
 
 ---
 
@@ -178,7 +200,7 @@ Ví dụ: MAG 60 → pen 30% → kẻ địch Resist 40% chỉ còn hiệu quả
 
 ---
 
-## Tổng Kết
+## Tổng Kết — Base Classes
 
 | Class | Active | AOE (Lv10) | Extra (Lv10) | Passive |
 |---|---|---|---|---|
@@ -187,3 +209,15 @@ Ví dụ: MAG 60 → pen 30% → kẻ địch Resist 40% chỉ còn hiệu quả
 | 🔮 Pháp Sư | Cầu Lửa 175% ⚡ | Bão Lửa 120% ⚡ | Chuỗi Lửa 160%+60% ⚡ | Mana Shield 40%, MAG Pen |
 
 *⚡ = xuyên giáp*
+
+---
+
+## Advanced Classes (Chiến Binh · Lv20+)
+
+Xem trang đầy đủ: [Advanced Classes](advanced-classes.md)
+
+| Class | Passive Mod | Cơ chế đặc biệt |
+|---|---|---|
+| ⚔️ **Berserker** | +15% ATK / −30% DEF | Rage mult: càng ít HP → ATK càng cao (tối đa +40% khi HP ≤ 40%) |
+| 🛡️ **Paladin** | −30% ATK / +30% DEF | Thorn passive: phản floor(DEF × 20%) mỗi đòn nhận |
+| 👑 **Royal Knight** | +7% ATK / +7% DEF | Bỏ qua stat req; +2% ATK+DEF per item đang đeo |
