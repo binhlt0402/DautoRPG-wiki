@@ -51,6 +51,35 @@ Mỗi trang bị có **1 main stat (★)** và **0–3 sub stats (·)** tùy the
 - Mỗi lần reroll tốn **vàng + nguyên liệu** theo levelReq
 - Sub stat mới được roll hoàn toàn ngẫu nhiên (cả loại lẫn giá trị)
 
+## Sub Stats Pool theo Loại Đồ
+
+Sub stats được roll **ngẫu nhiên từ pool** riêng của từng loại — không phải tất cả stats đều có thể xuất hiện trên mọi đồ:
+
+| Loại đồ | Sub stats có thể roll |
+|---|---|
+| ⚔️ Vũ Khí | ATK, CRIT%, CRIT-DMG%, PEN%, STR, DEX, MAG |
+| 🛡️ Giáp | DEF, HP, EVA%, RES%, CRIT-RES%, VIT, STR |
+| 🪖 Mũ | DEF, HP, EVA%, RES%, CRIT-RES%, VIT |
+| 💍 Trang Sức | Tất cả stats trong pool |
+| 🛡️ Khiên | DEF, HP, RES%, VIT, STR, CRIT-RES% |
+| 🗡️ Dao Phụ | ATK, CRIT%, CRIT-DMG%, PEN%, DEX |
+| 🔮 Cầu Phép | MAG, RES%, MP/TRN, PEN%, CRIT-DMG% |
+
+> **Lưu ý PEN%:** Chỉ có tác dụng với **Pháp Sư và các advanced class phép** (Archmage, Ice Mage, Fire Mage). Xem thêm ở phần [Hệ thống chiến đấu](../systems/combat.md).
+
+## Phong Ấn (Enchant) — Stats có thể thêm
+
+Phong ấn cho phép **thêm 1 điểm stat** vào đồ hiện có. Mỗi lần enchant roll ngẫu nhiên trong pool riêng theo loại:
+
+| Loại đồ | Stats enchant được |
+|---|---|
+| ⚔️ Vũ Khí | STR, DEX, MAG, ATK, CRIT%, CRIT-DMG% |
+| 🛡️ Giáp / 🪖 Mũ | DEF, HP, VIT, EVA%, RES% |
+| 💍 Trang Sức | STR, DEX, VIT, MAG |
+| 🗡️🛡️🔮 Tay Phụ (mọi loại) | DEF, HP, ATK, MAG, VIT, RES%, CRIT%, CRIT-DMG% |
+
+Xem chi tiết về tỷ lệ thành công và chi phí tại [Phong Ấn](enchanting.md).
+
 ## Vũ Khí 2 Tay [2H]
 
 Vũ khí có thể là **1 tay (1H)** hoặc **2 tay (2H)**:
