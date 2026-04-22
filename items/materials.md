@@ -16,6 +16,12 @@
 | `dragon_bone` | 🐉 Xương Rồng | Dungeon T6 |
 | `void_essence` | 🌀 Tinh Chất Hư Vô | Dungeon T7 |
 | `ancient_gem` | 💎 Ngọc Cổ Đại | Dungeon T8 |
+| `tower_shard_50` | 🔷 Mảnh Tháp | Tháp Thử Thách tầng 1–40 (thường) |
+| `tower_core_50` | 💠 Lõi Tháp | Tháp Thử Thách tầng 1–40 (Boss) |
+| `tower_shard_60` | 🔶 Tinh Hoa Tháp | Tháp Thử Thách tầng 41–80 (thường) |
+| `tower_core_60` | 🌟 Ngọc Tháp | Tháp Thử Thách tầng 41–80 (Boss) |
+
+> **Lưu ý:** Nguyên liệu Tower **không thể Break/Combine** và chỉ dùng để craft đồ Lv50/60.
 
 ## Chuỗi Nguyên Liệu (Break/Combine)
 

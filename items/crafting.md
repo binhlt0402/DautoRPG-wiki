@@ -27,6 +27,12 @@ Cũng có thể craft trực tiếp trên **Dashboard web** (mục Chế Tạo).
 | `epic_w35` | 🟠 Vũ Khí Epic Lv35 | 🌀×3 🐉×5 👑×8 |
 | `epic_w40` | 🟠 Vũ Khí Epic Lv40 | 🌀×5 👑×10 |
 | `ancient_w40` | 🔴 Vũ Khí Ancient Lv40 | 💎×5 🌀×8 |
+| `epic_w50` | 🟠 Vũ Khí Epic Lv50 | 🔷×10 💠×3 |
+| `ancient_w50` | 🔴 Vũ Khí Ancient Lv50 | 🔷×15 💠×5 |
+| `epic_w60` | 🟠 Vũ Khí Epic Lv60 | 🔶×10 🌟×3 |
+| `ancient_w60` | 🔴 Vũ Khí Ancient Lv60 | 🔶×15 🌟×5 |
+
+> 🔷 Mảnh Tháp / 💠 Lõi Tháp — Tháp Thử Thách tầng 1–40 · 🔶 Tinh Hoa Tháp / 🌟 Ngọc Tháp — tầng 41–80
 
 ---
 
@@ -49,6 +55,10 @@ Mỗi tier có 3 recipe tương ứng 3 loại giáp. Chọn đúng loại phù 
 | `epic_heavy_a35` | 🟠 Giáp Nặng Epic Lv35 | 🌀×3 🐉×5 👑×8 |
 | `epic_heavy_a40` | 🟠 Giáp Nặng Epic Lv40 | 🌀×5 👑×10 |
 | `ancient_heavy_a40` | 🔴 Giáp Nặng Ancient Lv40 | 💎×5 🌀×8 |
+| `epic_heavy_a50` | 🟠 Giáp Nặng Epic Lv50 | 🔷×10 💠×3 |
+| `ancient_heavy_a50` | 🔴 Giáp Nặng Ancient Lv50 | 🔷×15 💠×5 |
+| `epic_heavy_a60` | 🟠 Giáp Nặng Epic Lv60 | 🔶×10 🌟×3 |
+| `ancient_heavy_a60` | 🔴 Giáp Nặng Ancient Lv60 | 🔶×15 🌟×5 |
 
 ### 🌬️ Giáp Nhẹ (Light) — yêu cầu DEX, EVA cap 80%, EVA cao
 
@@ -65,6 +75,10 @@ Mỗi tier có 3 recipe tương ứng 3 loại giáp. Chọn đúng loại phù 
 | `epic_light_a35` | 🟠 Giáp Nhẹ Epic Lv35 | 🌀×3 🐉×5 👑×8 |
 | `epic_light_a40` | 🟠 Giáp Nhẹ Epic Lv40 | 🌀×5 👑×10 |
 | `ancient_light_a40` | 🔴 Giáp Nhẹ Ancient Lv40 | 💎×5 🌀×8 |
+| `epic_light_a50` | 🟠 Giáp Nhẹ Epic Lv50 | 🔷×10 💠×3 |
+| `ancient_light_a50` | 🔴 Giáp Nhẹ Ancient Lv50 | 🔷×15 💠×5 |
+| `epic_light_a60` | 🟠 Giáp Nhẹ Epic Lv60 | 🔶×10 🌟×3 |
+| `ancient_light_a60` | 🔴 Giáp Nhẹ Ancient Lv60 | 🔶×15 🌟×5 |
 
 ### 🔮 Áo Phép (Robe) — yêu cầu MAG, EVA cap 40%, Resist cao
 
@@ -81,6 +95,10 @@ Mỗi tier có 3 recipe tương ứng 3 loại giáp. Chọn đúng loại phù 
 | `epic_robe_a35` | 🟠 Áo Phép Epic Lv35 | 🌀×3 🐉×5 👑×8 |
 | `epic_robe_a40` | 🟠 Áo Phép Epic Lv40 | 🌀×5 👑×10 |
 | `ancient_robe_a40` | 🔴 Áo Phép Ancient Lv40 | 💎×5 🌀×8 |
+| `epic_robe_a50` | 🟠 Áo Phép Epic Lv50 | 🔷×10 💠×3 |
+| `ancient_robe_a50` | 🔴 Áo Phép Ancient Lv50 | 🔷×15 💠×5 |
+| `epic_robe_a60` | 🟠 Áo Phép Epic Lv60 | 🔶×10 🌟×3 |
+| `ancient_robe_a60` | 🔴 Áo Phép Ancient Lv60 | 🔶×15 🌟×5 |
 
 ---
 
@@ -103,6 +121,10 @@ Tương tự giáp, mũ cũng có 3 loại với yêu cầu và stat pool tươn
 | `epic_heavy_h35` | 🟠 Mũ Nặng Epic Lv35 | 🌀×3 🐉×5 👑×8 |
 | `epic_heavy_h40` | 🟠 Mũ Nặng Epic Lv40 | 🌀×5 👑×10 |
 | `ancient_heavy_h40` | 🔴 Mũ Nặng Ancient Lv40 | 💎×3 🌀×5 |
+| `epic_heavy_h50` | 🟠 Mũ Nặng Epic Lv50 | 🔷×10 💠×3 |
+| `ancient_heavy_h50` | 🔴 Mũ Nặng Ancient Lv50 | 🔷×15 💠×5 |
+| `epic_heavy_h60` | 🟠 Mũ Nặng Epic Lv60 | 🔶×10 🌟×3 |
+| `ancient_heavy_h60` | 🔴 Mũ Nặng Ancient Lv60 | 🔶×15 🌟×5 |
 
 ### 🌬️ Mũ Nhẹ (Light)
 
@@ -119,6 +141,10 @@ Tương tự giáp, mũ cũng có 3 loại với yêu cầu và stat pool tươn
 | `epic_light_h35` | 🟠 Mũ Nhẹ Epic Lv35 | 🌀×3 🐉×5 👑×8 |
 | `epic_light_h40` | 🟠 Mũ Nhẹ Epic Lv40 | 🌀×5 👑×10 |
 | `ancient_light_h40` | 🔴 Mũ Nhẹ Ancient Lv40 | 💎×3 🌀×5 |
+| `epic_light_h50` | 🟠 Mũ Nhẹ Epic Lv50 | 🔷×10 💠×3 |
+| `ancient_light_h50` | 🔴 Mũ Nhẹ Ancient Lv50 | 🔷×15 💠×5 |
+| `epic_light_h60` | 🟠 Mũ Nhẹ Epic Lv60 | 🔶×10 🌟×3 |
+| `ancient_light_h60` | 🔴 Mũ Nhẹ Ancient Lv60 | 🔶×15 🌟×5 |
 
 ### 🔮 Mũ Phép (Robe)
 
@@ -135,6 +161,10 @@ Tương tự giáp, mũ cũng có 3 loại với yêu cầu và stat pool tươn
 | `epic_robe_h35` | 🟠 Mũ Phép Epic Lv35 | 🌀×3 🐉×5 👑×8 |
 | `epic_robe_h40` | 🟠 Mũ Phép Epic Lv40 | 🌀×5 👑×10 |
 | `ancient_robe_h40` | 🔴 Mũ Phép Ancient Lv40 | 💎×3 🌀×5 |
+| `epic_robe_h50` | 🟠 Mũ Phép Epic Lv50 | 🔷×10 💠×3 |
+| `ancient_robe_h50` | 🔴 Mũ Phép Ancient Lv50 | 🔷×15 💠×5 |
+| `epic_robe_h60` | 🟠 Mũ Phép Epic Lv60 | 🔶×10 🌟×3 |
+| `ancient_robe_h60` | 🔴 Mũ Phép Ancient Lv60 | 🔶×15 🌟×5 |
 
 ---
 
@@ -155,6 +185,10 @@ Tương tự giáp, mũ cũng có 3 loại với yêu cầu và stat pool tươn
 | `epic_c35` | 🟠 Trang Sức Epic Lv35 | 🌀×2 🐉×4 👑×6 |
 | `epic_c40` | 🟠 Trang Sức Epic Lv40 | 🌀×4 👑×8 |
 | `ancient_c40` | 🔴 Trang Sức Ancient Lv40 | 💎×3 🌀×5 |
+| `epic_c50` | 🟠 Trang Sức Epic Lv50 | 🔷×8 💠×2 |
+| `ancient_c50` | 🔴 Trang Sức Ancient Lv50 | 🔷×12 💠×4 |
+| `epic_c60` | 🟠 Trang Sức Epic Lv60 | 🔶×8 🌟×2 |
+| `ancient_c60` | 🔴 Trang Sức Ancient Lv60 | 🔶×12 🌟×4 |
 
 ### Targeted (chọn main stat cụ thể)
 
@@ -210,8 +244,12 @@ Format ID: `<loại>_<rarity>_oh<lv>` · Ví dụ: `shield_magic_oh5`, `dagger_r
 | `shield/dagger/orb_epic_oh35` | 🟠 Epic Lv35 | 🌀×3 🐉×5 👑×8 |
 | `shield/dagger/orb_epic_oh40` | 🟠 Epic Lv40 | 🌀×5 👑×10 |
 | `shield/dagger/orb_ancient_oh40` | 🔴 Ancient Lv40 | 💎×3 🌀×5 |
+| `shield/dagger/orb_epic_oh50` | 🟠 Epic Lv50 | 🔷×10 💠×3 |
+| `shield/dagger/orb_ancient_oh50` | 🔴 Ancient Lv50 | 🔷×15 💠×5 |
+| `shield/dagger/orb_epic_oh60` | 🟠 Epic Lv60 | 🔶×10 🌟×3 |
+| `shield/dagger/orb_ancient_oh60` | 🔴 Ancient Lv60 | 🔶×15 🌟×5 |
 
 ---
 
 **Ký hiệu nguyên liệu:**
-🌿 Dược Thảo · 🦴 Xương Quái · 🪨 Đá Thô · ⛏️ Quặng Sắt · 💠 Tinh Thể Ma · ❤️ Tinh Huyết · ⚡ Sấm Thạch · 👑 Tinh Linh Cổ · 🌑 Pha Lê Bóng Tối · 🐉 Xương Rồng · 🌀 Tinh Chất Hư Vô · 💎 Ngọc Cổ Đại
+🌿 Dược Thảo · 🦴 Xương Quái · 🪨 Đá Thô · ⛏️ Quặng Sắt · 💠 Tinh Thể Ma · ❤️ Tinh Huyết · ⚡ Sấm Thạch · 👑 Tinh Linh Cổ · 🌑 Pha Lê Bóng Tối · 🐉 Xương Rồng · 🌀 Tinh Chất Hư Vô · 💎 Ngọc Cổ Đại · 🔷 Mảnh Tháp · 💠 Lõi Tháp · 🔶 Tinh Hoa Tháp · 🌟 Ngọc Tháp
