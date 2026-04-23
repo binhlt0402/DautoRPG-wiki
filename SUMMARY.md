@@ -14,6 +14,7 @@
 * [Dungeon](gameplay/dungeon.md)
 * [PvP & Ranking](gameplay/pvp.md)
 * [Nhiệm Vụ & Raid](gameplay/quests-raid.md)
+* [Tháp Thử Thách](gameplay/tower.md)
 
 ## Items & Trang Bị
 
