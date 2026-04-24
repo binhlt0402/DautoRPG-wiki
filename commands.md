@@ -30,12 +30,27 @@
 | `/slot switch <1–3>` | Chuyển sang nhân vật ở slot chỉ định (miễn phí) |
 | `/slot delete <1–3>` | Xóa nhân vật ở slot không active (đồ trong rương giữ lại) |
 
+## Party (Nhóm)
+
+| Lệnh | Mô tả |
+|---|---|
+| `/party create` | Tạo party mới, bạn là leader (tối đa 4 người) |
+| `/party invite @user` | Mời người chơi (hết hạn sau 5 phút; nếu họ bật AutoAdd thì thêm ngay) |
+| `/party accept` | Chấp nhận lời mời gần nhất |
+| `/party decline` | Từ chối lời mời gần nhất |
+| `/party kick @user` | Đuổi thành viên khỏi party (chỉ leader) |
+| `/party leave` | Rời party (quyền leader tự động chuyển sang người cũ nhất) |
+| `/party disband` | Giải tán toàn bộ party (chỉ leader) |
+| `/party status` | Xem thông tin party hiện tại |
+| `/party autoadd toggle` | Bật/tắt chế độ tự động chấp nhận lời mời |
+| `/party autoadd list` | Xem danh sách người đang bật AutoAdd |
+
 ## Chiến Đấu
 
 | Lệnh | Mô tả |
 |---|---|
-| `/explore <zone> [turns]` | Phiêu lưu tự động (tối đa 100 lượt) |
-| `/dungeon [tier]` | Vào Dungeon tier 1–8 (20 lượt) |
+| `/explore <zone> [turns]` | Phiêu lưu tự động (tối đa 100 lượt); tự động co-op nếu có party |
+| `/dungeon [tier]` | Vào Dungeon tier 1–8 (20 lượt); tự động co-op nếu có party |
 | `/log` | Xem chi tiết trận đấu cuối |
 | `/pvp @user` | Thách đấu 1v1 |
 | `/raid status` | Xem Raid Boss cộng đồng |

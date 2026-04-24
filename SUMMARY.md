@@ -12,6 +12,7 @@
 * [Explore & Zones](gameplay/explore.md)
 * [Chỉ Số Quái](gameplay/enemies.md)
 * [Dungeon](gameplay/dungeon.md)
+* [Party & Group Content](gameplay/party.md)
 * [PvP & Ranking](gameplay/pvp.md)
 * [Nhiệm Vụ & Raid](gameplay/quests-raid.md)
 * [Tháp Thử Thách](gameplay/tower.md)

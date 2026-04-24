@@ -74,8 +74,9 @@ rageBonus = t × 0.40
 | `berserker_rampage` | Cơn Điên | 🌀 aoe | 110% ATK tất cả địch, xuyên 20% DEF | 4 | 25 |
 | `berserker_rage` | Rage | ✨ buff | Immune hiệu ứng + **+50% ATK** 2 lượt; sau đó −20% ATK/−20% DEF 2 lượt | 7 | 30 |
 | `berserker_sacrifice` | Chém Tuyệt Vọng | ⚔️ active | Tốn 15% HP hiện tại, **260% ATK xuyên giáp hoàn toàn** | 5 | 10 |
+| `berserker_war_cry` | War Cry | 👥 party | **ATK toàn party +20%** trong 2 lượt | 5 | 30 |
 
-**Pool đầy đủ (7 skill):** `warrior_slash`, `warrior_cleave`, `warrior_pillar` + 4 Berserker
+**Pool đầy đủ (8 skill):** `warrior_slash`, `warrior_cleave`, `warrior_pillar` + 4 Berserker + 1 Group
 
 ### Mẹo Chơi
 
@@ -115,8 +116,9 @@ reflect = floor(effectiveDEF × 0.60)
 | `paladin_judgment` | Phán Quyết | 🌀 aoe | 100% ATK phép tất cả, địch trúng nhận **+30% dmg** lượt tiếp | 4 | 30 |
 | `paladin_heal` | Thánh Hộ | 💚 heal | Hồi **30% maxHP**, xóa toàn bộ debuff | 5 | 25 |
 | `paladin_shield` | Thánh Thuẫn | ✨ buff | Block **2 đòn** tiếp theo, **+25% DEF** thêm 3 lượt | 6 | 20 |
+| `paladin_holy_banner` | Holy Banner | 👥 party | Hồi **20% maxHP cho toàn party** | 4 | 40 |
 
-**Pool đầy đủ (7 skill):** `warrior_slash`, `warrior_cleave`, `warrior_pillar` + 4 Paladin
+**Pool đầy đủ (8 skill):** `warrior_slash`, `warrior_cleave`, `warrior_pillar` + 4 Paladin + 1 Group
 
 ### Mẹo Chơi
 
@@ -156,8 +158,9 @@ ATK/DEF = round(ATK/DEF × (1 + bonus))
 | `royalknight_charge` | Đột Kích | 🌀 aoe | 90% ATK tất cả, **35% stun** mỗi mục tiêu 1 lượt | 4 | 25 |
 | `royalknight_aura` | Hào Quang | ✨ buff | Giảm **25% dmg nhận** + **+10% ATK** trong 3 lượt | 5 | 20 |
 | `royalknight_prestige` | Phong Hầu | 🌙 passive | Mỗi crit → **+1% ATK/+1% DEF** trong battle (tối đa 10 stack) | — | — |
+| `royalknight_royal_shield` | Royal Shield | 👥 party | Taunt kéo toàn bộ địch + **DEF party +30%** trong 1 lượt | 6 | 20 |
 
-**Pool đầy đủ (7 skill):** `warrior_slash`, `warrior_cleave`, `warrior_pillar` + 4 Royal Knight
+**Pool đầy đủ (8 skill):** `warrior_slash`, `warrior_cleave`, `warrior_pillar` + 4 Royal Knight + 1 Group
 
 ### Mẹo Chơi
 
@@ -190,8 +193,9 @@ ATK/DEF = round(ATK/DEF × (1 + bonus))
 | `shadow_vanish` | Ẩn Thân | ✨ buff | **Né toàn bộ 1 lượt** + đòn kế tiếp guaranteed crit | 5 | 20 |
 | `shadow_nightfall` | Màn Đêm | 🌀 aoe | 85% ATK tất cả, **40% cơ hội** gây độc mỗi mục tiêu | 4 | 25 |
 | `shadow_feign_death` | Giả Chết | 🌙 passive | **1 lần/trận:** khi nhận đòn chí tử → sống sót với **10% HP** | — | — |
+| `shadow_smoke_screen` | Smoke Screen | 👥 party | **EVA toàn party +25%** trong 2 lượt | 5 | 25 |
 
-**Pool đầy đủ (7 skill):** `rogue_stab`, `rogue_storm`, `rogue_crit` + 4 Shadow
+**Pool đầy đủ (8 skill):** `rogue_stab`, `rogue_storm`, `rogue_crit` + 4 Shadow + 1 Group
 
 ### Mẹo Chơi
 
@@ -231,8 +235,9 @@ critDmgMult = 1.5 (base) + eq.critDmg/100 (soft-capped) + 1.5 (Samurai bonus)
 | `samurai_blade_dance` | Vũ Điệu Đao | 🌀 aoe | **100% ATK** tất cả địch | 4 | 25 |
 | `samurai_serenity` | Bình Tâm | 💚 heal | Hồi **20% maxHP** | 5 | 20 |
 | `samurai_divine_blade` | Kiếm Thần | ⚔️ active | **190% ATK xuyên giáp hoàn toàn** | 3 | 20 |
+| `samurai_hao_khi` | Hào Khí | 👥 party | **300% ATK xuyên giáp**; ×2 nếu đồng đội HP ≤30% hoặc đã ngã | 5 | 0 |
 
-**Pool đầy đủ (7 skill):** `rogue_stab`, `rogue_storm`, `rogue_crit` + 4 Samurai
+**Pool đầy đủ (8 skill):** `rogue_stab`, `rogue_storm`, `rogue_crit` + 4 Samurai + 1 Group
 
 ### Mẹo Chơi
 
@@ -267,8 +272,9 @@ critDmgMult = 1.5 (base) + eq.critDmg/100 (soft-capped) + 1.5 (Samurai bonus)
 | `archer_multishot` | Mưa Tên | 🌀 aoe | 90% ATK tất cả địch | 4 | 20 |
 | `archer_eagle_eye` | Mắt Đại Bàng | ✨ buff | **+25% Crit Rate** + xuyên **20% DEF** trong 3 lượt | 5 | 20 |
 | `archer_aimed_shot` | Nhắm Bắn | ⚔️ active | 190% ATK, **+30% dmg** nếu mục tiêu bị đánh ≥2 lượt liên tiếp | 5 | 25 |
+| `archer_volley` | Volley | 👥 party | **150% AoE** tất cả địch + đánh dấu toàn bộ (hit kế +30%) | 4 | 30 |
 
-**Pool đầy đủ (7 skill):** `rogue_stab`, `rogue_storm`, `rogue_crit` + 4 Archer
+**Pool đầy đủ (8 skill):** `rogue_stab`, `rogue_storm`, `rogue_crit` + 4 Archer + 1 Group
 
 ### Mẹo Chơi
 
@@ -301,8 +307,9 @@ critDmgMult = 1.5 (base) + eq.critDmg/100 (soft-capped) + 1.5 (Samurai bonus)
 | `archmage_arcane_storm` | Arcane Storm | 🌀 aoe | **130% ATK phép xuyên giáp** tất cả | 4 | 30 |
 | `archmage_mana_surge` | Mana Surge | ✨ buff | **+25% ATK** + hồi **8 MP/lượt** trong 3 lượt | 5 | 15 |
 | `archmage_spell_echo` | Spell Echo | 🌙 passive | **30% chance** sau mỗi skill → bắn thêm **70% ATK phép xuyên giáp** | — | — |
+| `archmage_mana_transfer` | Mana Transfer | 👥 party | Hồi **40% maxMP cho toàn party** | 5 | 50 |
 
-**Pool đầy đủ (8 skill):** `mage_fireball`, `mage_firestorm`, `mage_chain`, `mage_shield` + 4 Archmage
+**Pool đầy đủ (9 skill):** `mage_fireball`, `mage_firestorm`, `mage_chain`, `mage_shield` + 4 Archmage + 1 Group
 
 ### Mẹo Chơi
 
@@ -333,8 +340,9 @@ critDmgMult = 1.5 (base) + eq.critDmg/100 (soft-capped) + 1.5 (Samurai bonus)
 | `icemage_blizzard` | Blizzard | 🌀 aoe | 95% ATK phép xuyên giáp tất cả, **30% đóng băng** mỗi mục tiêu | 4 | 30 |
 | `icemage_ice_shield` | Ice Shield | ✨ buff | Block **3 đòn** + **+20% Resist** trong 3 lượt | 6 | 20 |
 | `icemage_shatter` | Shatter | ⚔️ active | **230% ATK phép** xuyên giáp; **+40% dmg** nếu địch đang bị đóng băng | 5 | 30 |
+| `icemage_ice_prison` | Ice Prison | 👥 party | **Đóng băng toàn bộ địch** 1 lượt + DEF party +15% trong 2 lượt | 6 | 45 |
 
-**Pool đầy đủ (8 skill):** `mage_fireball`, `mage_firestorm`, `mage_chain`, `mage_shield` + 4 Ice Mage
+**Pool đầy đủ (9 skill):** `mage_fireball`, `mage_firestorm`, `mage_chain`, `mage_shield` + 4 Ice Mage + 1 Group
 
 ### Mẹo Chơi
 
@@ -367,8 +375,9 @@ critDmgMult = 1.5 (base) + eq.critDmg/100 (soft-capped) + 1.5 (Samurai bonus)
 | `firemage_inferno` | Inferno | ⚔️ active | **260% ATK phép**, bỏ qua hoàn toàn Resist | 5 | 35 |
 | `firemage_fire_armor` | Fire Armor | ✨ buff | **+15% ATK** 3 lượt; đòn nhận → phản **floor(ATK địch × 15%)** burn | 5 | 20 |
 | `firemage_combustion` | Combustion | 🌙 passive | Burn tick gây thêm **+50% dmg** | — | — |
+| `firemage_hellfire` | Hellfire | 👥 party | **150% AoE phép xuyên giáp** + burn 15% ATK/lượt × 2t toàn bộ địch | 5 | 40 |
 
-**Pool đầy đủ (8 skill):** `mage_fireball`, `mage_firestorm`, `mage_chain`, `mage_shield` + 4 Fire Mage
+**Pool đầy đủ (9 skill):** `mage_fireball`, `mage_firestorm`, `mage_chain`, `mage_shield` + 4 Fire Mage + 1 Group
 
 ### Mẹo Chơi
 

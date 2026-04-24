@@ -2,6 +2,33 @@
 
 ---
 
+## v1.0.0 — 2026-04-24 · Party System + Group Content
+
+### Party System
+- Lệnh `/party` mới: create, invite, accept, decline, kick, leave, disband, status
+- **AutoAdd**: bật để cho phép ai cũng có thể mời bạn vào party tức thì (`/party autoadd toggle/list`)
+- Party tối đa **4 người**; lời mời hết hạn sau 5 phút
+
+### Co-op Explore & Dungeon
+- `/explore` và `/dungeon` tự động co-op khi đang trong party ≥ 2 người
+- Số địch = base + (party_size − 1), tối đa 6; Boss HP tăng theo
+- Mỗi thành viên nhận full EXP/vàng/loot cá nhân
+- Bất tỉnh trong party: **5 phút** (giảm từ 10 phút solo)
+
+### 9 Group Skills (Advanced Classes)
+Mỗi advanced class có thêm 1 skill nhóm (role: party), chỉ dùng được khi co-op:
+- Berserker: **War Cry** — ATK party +20%
+- Paladin: **Holy Banner** — hồi 20% maxHP toàn party
+- Royal Knight: **Royal Shield** — taunt + DEF party +30%
+- Shadow: **Smoke Screen** — EVA party +25%
+- Samurai: **Hào Khí** — 300% ATK xuyên giáp, ×2 khi đồng đội nguy kịch
+- Archer: **Volley** — 150% AoE + mark toàn bộ địch
+- Archmage: **Mana Transfer** — hồi 40% maxMP toàn party
+- Ice Mage: **Ice Prison** — đóng băng toàn bộ địch + DEF party +15%
+- Fire Mage: **Hellfire** — 150% AoE phép + burn toàn bộ địch
+
+---
+
 ## v0.9.9 — 2026-04-16 · Targeted Accessory Craft Recipes
 
 - **88 công thức trang sức mới** — chọn main stat cụ thể khi craft thay vì random
